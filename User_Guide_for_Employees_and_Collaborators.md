@@ -2,6 +2,8 @@
 This document includes both a step-by-step guideline on how to upload your codes to this organisation, how to become a contributor, 
 and what are the best practices to keep in mind.
 
+To have access to creating repositories and uploading your code on AU-DATALAB's organisation, you will need to have made a Github account, and asked someone from the organisation to **invite you** to join the organisation. When you are no longer working for DATALAB, your access rights will be removed and you will lose access to any private repositories on AU-DATALAB.
+
 ## 1. Uploading your code
 You've done or are currently working on a paper that requires programming, and you want to make the codes public on GitHub for DATALAB. 
 These guidelines begin with the assumption that you have a folder on your work machine that includes (at least the initial) codes for your project.
@@ -24,6 +26,8 @@ For example, "Code for deep dive in hashtags of the Danish Twitter for Next Gene
 <img width="600" alt="step3" src="images/create-repository-desc.png">
 
 #### **Step 4.** Choose a repository visibility.
+As a rule, any code that is uploaded to support a research paper or project, should be public.
+It's possible to initialize a repository as private with the intention of making it public later.
 Public repositories are seen by anyone on GitHub, and private ones are only seen by the member users of AU-DATALAB.
 **Your code should not include any sensitive data, no access tokens to APIs, no passwords and usernames in any parts of the code**.
 If your codes include such information, **they should still not be uploaded as private repositories.**
@@ -74,3 +78,9 @@ Congratulations! Your files have now been uploaded and you should be able to see
 **NOTE**: If you wish to **make a folder** under your repository, use [this guide](https://github.community/t/add-a-folder/2304)
 
 ## 2. Best practices
+Follow these guidelines to make sure the usage of Github is both optimal and safe.
+
+1. Never upload any codes, documents, files that contains sensitive data such as passwords, access tokens, etc. Look into usage of [.gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) file if storing passwords is necessary for your code
+2. Avoid uploading any data and large files. Storing PDFs, data, etc should be done elsewhere, e.g on the cloud, remote server, Google Drive for PDFs
+3. Secure your account by using two-factor authentication when logging in
+
