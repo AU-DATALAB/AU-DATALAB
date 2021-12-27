@@ -83,4 +83,5 @@ Follow these guidelines to make sure the usage of Github is both optimal and saf
 1. Never upload any codes, documents, files that contains sensitive data such as passwords, access tokens, etc. Look into usage of [.gitignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) file if storing passwords is necessary for your code
 2. Avoid uploading any data and large files. Storing PDFs, data, etc should be done elsewhere, e.g on the cloud, remote server, Google Drive for PDFs
 3. Secure your account by using two-factor authentication when logging in
+4. For naming repositories, check the [Respository-Naming-Guide.md](Respository-Naming-Guide.md)
 
